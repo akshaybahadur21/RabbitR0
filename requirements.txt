@@ -1,0 +1,5 @@
+pydantic~=2.7.0
+mediapipe~=0.10.11
+opencv-python
+picamera
+rpi-gpio
