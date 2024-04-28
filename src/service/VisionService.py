@@ -6,11 +6,19 @@ import google.ai.generativelanguage as glm
 
 class VisionService:
     def __init__(self):
+        """
+        Initialize the Vision Service
+        """
         self.cap = cv2.VideoCapture(0)
 
     def generate_response_from_vision(self, model, prompt):
+        """
+        Generate response from vision
+        :param model:
+        :param prompt:
+        :return:
+        """
         while True:
-            # Capture frame-by-frame
             ret, frame = self.cap.read()
             if frame is None:
                 continue

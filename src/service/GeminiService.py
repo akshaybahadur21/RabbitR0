@@ -12,6 +12,9 @@ from src.service.PromptService import PromptService
 
 class GeminiService:
     def __init__(self):
+        """
+        Initialize the LAM Service
+        """
         genai.configure(api_key=os.environ.get('GEMINI_API_KEY'))
         self.text_genai_model = genai.GenerativeModel('gemini-pro')
         self.video_genai_model = genai.GenerativeModel('gemini-pro-vision')
@@ -22,6 +25,11 @@ class GeminiService:
         self.vision_service = VisionService()
 
     def converse(self, speech):
+        """
+        Converse with the LAM Service
+        :param speech:
+        :return:
+        """
         prompt_map = PromptService.get_prompt_map()
         base = prompt_map[base_prompt.id]
         response = self.chat.send_message(PromptService.massage_prompt(base, speech).text)
@@ -31,6 +39,11 @@ class GeminiService:
         return processed_response
 
     def process_response(self, response):
+        """
+        Process the response from the LAM Service
+        :param response:
+        :return:
+        """
         if response['intent'] == 'greeting':
             self.chat = self.text_genai_model.start_chat(history=[])
         if response['intent'] == 'image':

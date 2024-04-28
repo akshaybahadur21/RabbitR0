@@ -5,8 +5,11 @@ import pyttsx3
 from src.service.GeminiService import GeminiService
 
 
-class Humane:
+class Rabbit:
     def __init__(self):
+        """
+        This method initializes the Rabbit object and sets up the GPIO pins for the button.
+        """
         GPIO.setmode(GPIO.BCM)
         self.BUTTON_PIN = 2
         GPIO.setup(self.BUTTON_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)
@@ -16,8 +19,12 @@ class Humane:
         self.tts_engine.setProperty('volume', 1.0)
         self.tts_engine.setProperty("rate", 178)
 
-    def pin(self):
-        print("Pinned")
+    def hop(self):
+        """
+        This method listens for button press and then listens for speech input.
+        It then sends the speech input to LAM for processing and then speaks the response.
+        :return:
+        """
         while True:
             if GPIO.input(self.BUTTON_PIN) == GPIO.LOW:
                 while GPIO.input(self.BUTTON_PIN) == GPIO.LOW:
@@ -40,5 +47,5 @@ class Humane:
 
 
 if __name__ == '__main__':
-    humane = Humane()
-    humane.pin()
+    r0 = Rabbit()
+    r0.hop()
