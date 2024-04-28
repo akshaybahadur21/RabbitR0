@@ -1,5 +1,10 @@
 pydantic~=2.7.0
 mediapipe~=0.10.11
-opencv-python
+opencv-python~=4.9.0.80
 picamera
 rpi-gpio
+SpeechRecognition
+playsound~=1.3.0
+gTTS~=2.5.1
+pillow~=10.3.0
+pyttsx3~=2.90
