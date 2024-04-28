@@ -2,23 +2,24 @@ import json
 import os
 
 import google.generativeai as genai
+from src.service.VisionService import VisionService
 from src.prompt.BasePrompt import base_prompt
 from src.prompt.VisionPrompt import vision_prompt
 import pyttsx3
 
 from src.service.PromptService import PromptService
-from src.utils.VisionUtils import generate_response_from_vision
 
 
 class GeminiService:
     def __init__(self):
-        genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+        genai.configure(api_key=os.environ.get('GEMINI_API_KEY'))
         self.text_genai_model = genai.GenerativeModel('gemini-pro')
         self.video_genai_model = genai.GenerativeModel('gemini-pro-vision')
         self.chat = self.text_genai_model.start_chat(history=[])
         self.tts_engine = pyttsx3.init()
         self.tts_engine.setProperty('volume', 1.0)
         self.tts_engine.setProperty("rate", 178)
+        self.vision_service = VisionService()
 
     def converse(self, speech):
         prompt_map = PromptService.get_prompt_map()
@@ -35,6 +36,6 @@ class GeminiService:
         if response['intent'] == 'image':
             self.tts_engine.say(response['answer'])
             self.tts_engine.runAndWait()
-            response = generate_response_from_vision(model=self.video_genai_model, prompt=vision_prompt.text)
+            response = self.vision_service.generate_response_from_vision(model=self.video_genai_model, prompt=vision_prompt.text)
         print(response)
         return response

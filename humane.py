@@ -3,7 +3,6 @@ import speech_recognition as sr
 import pyttsx3
 
 from src.service.GeminiService import GeminiService
-from src.service.VisionService import VisionService
 
 
 class Humane:
@@ -11,8 +10,7 @@ class Humane:
         GPIO.setmode(GPIO.BCM)
         self.BUTTON_PIN = 2
         GPIO.setup(self.BUTTON_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-        self.recognizer = sr.Recognizer()
-        self.vision = VisionService()
+        self.recognizer = sr.Recognizer() 
         self.gemini_service = GeminiService()
         self.tts_engine = pyttsx3.init()
         self.tts_engine.setProperty('volume', 1.0)
