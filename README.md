@@ -10,4 +10,4 @@ You can install Conda for python which resolves all the dependencies for machine
 
 ## References
 - https://www.rabbit.tech/research
-- 
+- https://humane.com/
