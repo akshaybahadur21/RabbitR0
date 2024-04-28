@@ -3,6 +3,12 @@
 
 A simple, accessible pocket companion implementation for humans.
 
+## Modules 🥧
+1. Raspberry Pi 4
+2. RPi Camera module with OV5647 sensor (5MP)
+3. RPi Audio Module and Speaker
+4. RPi Button
+
 ## Code Requirements 🦄
 You can install Conda for python which resolves all the dependencies for machine learning.
 
