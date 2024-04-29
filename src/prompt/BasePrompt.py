@@ -23,5 +23,5 @@ base_prompt = Prompt(
     
     Input: [INPUT]
          """,
-    retry="""Can you return this response in valid JSON string format with the best category as `label`, your `reason` behind this choice, `confidence_score` as a metric expressing how certain you are of your choice (this must be between 0.0, not confident, to 1.0, extremely confident)"""
+    retry=""" Return a response in valid JSON string format with the best category as `intent`, your `reason` behind this choice, `confidence_score` as a metric expressing how certain you are of your choice and your `answer` to the user for the text input (this must be between 0.0, not confident, to 1.0, extremely confident)"""
 )
