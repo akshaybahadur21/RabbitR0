@@ -1,3 +1,10 @@
+<div align="center">
+
+<p align="center"> <img src="https://github.com/akshaybahadur21/RabbitR0/assets/22640610/c82fee41-1680-483a-8639-64f07e900c4a" height="400px"></p>
+
+
+</div>
+
 # Rabbit r0 🐰
 [![](https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0000)](https://github.com/akshaybahadur21/Emojinator/blob/master/LICENSE.md)  [![](https://img.shields.io/badge/Akshay-Bahadur-brightgreen.svg?colorB=ff0000)](https://akshaybahadur.com)
 
