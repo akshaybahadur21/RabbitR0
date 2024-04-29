@@ -7,7 +7,12 @@ A simple, accessible pocket companion implementation for humans.
 1. Raspberry Pi 4
 2. RPi Camera module with OV5647 sensor (5MP)
 3. RPi Audio Module and Speaker
-4. RPi Button
+
+![image](https://github.com/akshaybahadur21/RabbitR0/assets/22640610/5f486778-0f6e-4dde-8285-9ee52cc2d74c)
+
+![image](https://github.com/akshaybahadur21/RabbitR0/assets/22640610/92b9a9d9-d36a-40f0-ac13-1fb35156eb60)
+
+
 
 ## Code Requirements 🦄
 You can install Conda for python which resolves all the dependencies for machine learning.
