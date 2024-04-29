@@ -19,6 +19,7 @@ A simple, accessible pocket companion implementation for humans.
 
 ![image](https://github.com/akshaybahadur21/RabbitR0/assets/22640610/92b9a9d9-d36a-40f0-ac13-1fb35156eb60)
 
+![FullSizeRender](https://github.com/akshaybahadur21/RabbitR0/assets/22640610/28db5527-7271-4a99-9a76-838430b9d3bc)
 
 
 ## Code Requirements 🦄
