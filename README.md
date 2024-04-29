@@ -15,11 +15,24 @@ A simple, accessible pocket companion implementation for humans.
 2. RPi Camera module with OV5647 sensor (5MP)
 3. RPi Audio Module and Speaker
 
-![image](https://github.com/akshaybahadur21/RabbitR0/assets/22640610/5f486778-0f6e-4dde-8285-9ee52cc2d74c)
+<div align="center">
 
-![image](https://github.com/akshaybahadur21/RabbitR0/assets/22640610/92b9a9d9-d36a-40f0-ac13-1fb35156eb60)
+<p align="center"> <img src="https://github.com/akshaybahadur21/RabbitR0/assets/22640610/5f486778-0f6e-4dde-8285-9ee52cc2d74c"></p>
 
-![FullSizeRender](https://github.com/akshaybahadur21/RabbitR0/assets/22640610/28db5527-7271-4a99-9a76-838430b9d3bc)
+</div>
+
+<div align="center">
+
+<p align="center"> <img src="https://github.com/akshaybahadur21/RabbitR0/assets/22640610/92b9a9d9-d36a-40f0-ac13-1fb35156eb60"></p>
+
+</div>
+
+<div align="center">
+
+<p align="center"> <img src="https://github.com/akshaybahadur21/RabbitR0/assets/22640610/fdd676c8-f262-4a66-be8c-b6e4e01b44d0"></p>
+
+</div>
+
 
 
 ## Code Requirements 🦄
