@@ -26,6 +26,7 @@ You can install Conda for python which resolves all the dependencies for machine
 
 `pip install -r requirements.txt`
 
-## References
+## References 🔱
 - https://www.rabbit.tech/research
 - https://humane.com/
+- https://docs.sunfounder.com/projects/raphael-kit/en/latest/
