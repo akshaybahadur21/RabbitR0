@@ -1,6 +1,6 @@
 <div align="center">
 
-<p align="center"> <img src="https://github.com/akshaybahadur21/RabbitR0/assets/22640610/2ebe08b2-c791-400f-9064-692085917272" height="400px"></p>
+<p align="center"> <img src="https://github.com/akshaybahadur21/RabbitR0/assets/22640610/ceaa0126-f23f-4dac-96fd-07f2be0b482a"></p>
 
 </div>
 
