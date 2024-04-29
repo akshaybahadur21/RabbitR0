@@ -30,3 +30,17 @@ You can install Conda for python which resolves all the dependencies for machine
 - https://www.rabbit.tech/research
 - https://humane.com/
 - https://docs.sunfounder.com/projects/raphael-kit/en/latest/
+
+## Cite Us :pushpin:
+
+To cite this guide, use the below format:
+
+```
+@article{akshaybahadur21_rabbit_r0,
+author = {Bahadur, Akshay},
+journal = {https://github.com/akshaybahadur21/RabbitR0},
+month = {04},
+title = {{RabbitR0}},
+year = {2024}
+}
+```
