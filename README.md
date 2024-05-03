@@ -40,6 +40,12 @@ You can install Conda for python which resolves all the dependencies for machine
 
 `pip install -r requirements.txt`
 
+
+## Results 📊
+
+https://github.com/akshaybahadur21/RabbitR0/assets/22640610/899f467b-3318-4efe-b6d6-ebad4493d7a3
+
+
 ## References 🔱
 - https://www.rabbit.tech/research
 - https://humane.com/
